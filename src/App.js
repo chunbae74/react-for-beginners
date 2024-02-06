@@ -1,13 +1,8 @@
-import Button from "./Button";
-import styles from "./App.module.css";
+import { useState, useEffect } from "react";
+import Movie from "./components/MovieComponent";
 
 function App() {
-  return (
-    <div>
-      <h1 className={styles.title}>Welcome back!</h1>
-      <Button text={"Hellllooo"} /> 
-    </div>
-  );
+  return null;
 }
 
 export default App;
